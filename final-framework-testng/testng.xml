@@ -5,6 +5,9 @@
    <test name = "Sample test">
       <classes>
          <class name = "com.training.sanity.tests.LoginTests" />
+         <class name = "com.training.sanity.tests.PasswordMismatchUFM_008" />
+         <class name = "com.training.sanity.tests.AddProductUFM_009" />        
+         
       </classes>
    </test>
 </suite>	
