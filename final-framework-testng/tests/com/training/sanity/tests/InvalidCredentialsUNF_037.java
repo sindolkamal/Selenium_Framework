@@ -60,9 +60,7 @@ public class InvalidCredentialsUNF_037 {
 	}
 	@Test
 	public void validLoginTest() throws InterruptedException, IOException {
-		boolean isFound = false;
-		// This below code is to add Product to cart.
-		addCategoryPOM.sendUserName("Nha");
+	    addCategoryPOM.sendUserName("Nha");
 	    addCategoryPOM.Password("neha1234");
 	    addCategoryPOM.Submit();
 	    
