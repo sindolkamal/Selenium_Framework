@@ -58,7 +58,7 @@ public class AddProductUFM_008 {
 	@Test
 	public void validLoginTest() throws InterruptedException {
 		
-		// This belwo code is to add Product to cart.
+		// This below code is to add Product to cart.
 		addProductPOM.SelectShirtYellow();
 		driver.findElement(By.id("input-option382")).click();
 		driver.findElement(By.cssSelector("option:nth-child(7)")).click();
@@ -72,6 +72,7 @@ public class AddProductUFM_008 {
 	    addProductPOM.Remove();
 	    String actual1 = driver.findElement(By.xpath("//div[@id='content']//p[contains(text(),'Your shopping cart is empty!')] " )).getText();
 	    Assert.assertTrue(actual1.contains("Your shopping cart is empty"));
+	    screenShot.captureScreenShot("UFM008_1");
 	    
 	}
 }

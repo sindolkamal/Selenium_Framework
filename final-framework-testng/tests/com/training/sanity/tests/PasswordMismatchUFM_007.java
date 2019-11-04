@@ -76,5 +76,6 @@ public class PasswordMismatchUFM_007 {
 		Thread.sleep(3000);
 		System.out.println(changepassPOM.getText());
 		assertEquals("Password confirmation does not match password!",changepassPOM.getText());
+		screenShot.captureScreenShot("UFM007_1");
 	}
 }
